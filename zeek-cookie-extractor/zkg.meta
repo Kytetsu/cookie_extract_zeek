@@ -1,0 +1,7 @@
+[package]
+description = Appends a column of detected http cookie variable names to http.log file.
+tags = cookies, http
+version = 1.0.0
+script_dir = scripts
+test_command = cd tests && btest
+depends = zeek >=4.0.2
